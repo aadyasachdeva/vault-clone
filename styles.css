@@ -372,7 +372,7 @@ body {
 
 /* ---- Services Section ---- */
 .services-container {
-  width: 1435px;
+  max-width: 1435px;
   border-block: 1px solid #17241a;
 }
 
@@ -391,7 +391,7 @@ body {
 
 /* ---- Support Section ---- */
 .support-section {
-  width: 1435px;
+  max-width: 1435px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -538,4 +538,69 @@ body {
   letter-spacing: 0.1em;
   color: #17241a;
   font-weight: 700;
+}
+
+/* Custom Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+
+  .shop-now-btn {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .footer h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer li {
+    font-size: 12px;
+  }
+
+  .services-container {
+    flex-direction: column;
+  }
+
+  .services-container div {
+    margin-bottom: 20px;
+  }
+
+  .social-media-icons-list {
+    gap: 15px;
+  }
+
+  .customer-care {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+
+  .shop-now-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .footer h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer li {
+    font-size: 10px;
+  }
+
+  .social-media-icons-list {
+    gap: 15px;
+  }
+
+  .customer-care {
+    margin-top: 12px;
+  }
 }
