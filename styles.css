@@ -157,6 +157,14 @@ body {
   max-height: 50px;
 }
 
+.nav-icons {
+  display: flex;
+}
+
+.nav-icons .nav-item {
+  margin: 0;
+}
+
 /* ---- Carousel Section ---- */
 .carousel-section {
   position: relative;
@@ -575,6 +583,18 @@ body {
   .customer-care {
     margin-top: 12px;
   }
+
+  .navbar-links {
+    margin-top: 16px;
+  }
+
+  .nav-item {
+    padding-left: 0 !important;
+  }
+
+  .nav-icons {
+    gap: 12px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -602,5 +622,17 @@ body {
 
   .customer-care {
     margin-top: 12px;
+  }
+
+  .navbar-links {
+    margin-top: 16px;
+  }
+
+  .nav-item {
+    padding-left: 0 !important;
+  }
+
+  .nav-icons {
+    gap: 12px;
   }
 }
