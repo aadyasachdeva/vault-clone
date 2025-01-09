@@ -1,0 +1,541 @@
+/* ---- Font Faces ---- */
+
+/* ROMIE FONT */
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Regualar.woff2") format("woff2"),
+    url("/fonts/Romie-Regualar.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Romie Trial";
+  src: url("/fonts/RomieTrial-Italic.woff2") format("woff2"),
+    url("/fonts/RomieTrial-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Bold.woff2") format("woff2"),
+    url("/fonts/Romie-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Black.woff2") format("woff2"),
+    url("/fonts/Romie-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Heavy.woff2") format("woff2"),
+    url("/fonts/Romie-Heavy.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Light.woff2") format("woff2"),
+    url("/fonts/Romie-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Romie";
+  src: url("/fonts/Romie-Medium.woff2") format("woff2"),
+    url("/fonts/Romie-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* FT REGOLA NEUE TRIAL FONT */
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-Regular.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-RegularItalic.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-Light.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-Medium.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-Semibold.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-Bold.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FT Regola Neue Trial";
+  src: url("fonts/FTRegolaNeueTrial-Heavy.woff2") format("woff2"),
+    url("fonts/FTRegolaNeueTrial-Heavy.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* SULPHUR POINT FONT */
+@font-face {
+  font-family: "Sulphur Point";
+  src: url("fonts/SulphurPoint-Regular.woff2") format("woff2"),
+    url("fonts/SulphurPoint-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sulphur Point";
+  src: url("fonts/SulphurPoint-Light.woff2") format("woff2"),
+    url("fonts/SulphurPoint-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sulphur Point";
+  src: url("fonts/SulphurPoint-Bold.woff2") format("woff2"),
+    url("fonts/SulphurPoint-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* ---- Global Styles ---- */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #17241a;
+}
+
+/* ---- Header ---- */
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+/* ---- Carousel Section ---- */
+.carousel-section {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.4em;
+}
+
+.carousel-caption h1 {
+  font-family: "Romie Trial", sans-serif;
+  font-size: 6rem;
+}
+
+.carousel-caption .btn {
+  background-color: #fff;
+  font-family: "Sulphur Point", sans-serif;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.carousel-caption .btn:hover {
+  background-color: #fff;
+}
+
+/* ---- About Section ---- */
+.about-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.about-section h2 {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.about-section p {
+  font-family: "Romie Trial", sans-serif;
+  font-style: italic;
+  font-size: 42px;
+}
+
+.be-unrepeatable-image {
+  cursor: pointer;
+}
+
+/* ---- Products Section ---- */
+.products-section {
+  font-family: "Sulphur Point", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+/* ---- Blogs Section ---- */
+.blogs-section {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+}
+
+.products-section h2,
+.blogs-section h2 {
+  margin-bottom: 36px;
+}
+
+.card-img-top {
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-text {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.product-card,
+.blog-card {
+  border: none;
+}
+
+.product-card .card-img-top,
+.blog-card .card-img-top {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover .card-img-top,
+.blog-card:hover .card-img-top {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+
+.card-body {
+  padding-left: 0;
+  padding-top: 24px;
+  padding-right: 0;
+}
+
+/* ---- Shop Now Button ---- */
+.shop-now-btn {
+  background-color: #6e1719;
+  color: #fff;
+  border: none;
+  padding: 16px 43px;
+  font-size: 20px;
+}
+
+/* ---- Blog Title and Subtext ---- */
+.blog-title {
+  font-family: "Romie", sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.blog-subtext {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 2; /* Number of lines to show initially */
+  -webkit-box-orient: vertical;
+  transition: max-height 0.3s ease; /* Smooth transition */
+  max-height: 5em !important; /* Adjust based on line height */
+}
+
+.blog-subtext.expanded {
+  line-clamp: none;
+  -webkit-line-clamp: none;
+  max-height: none !important;
+}
+
+.read-more {
+  font-family: "Sulphur Point", sans-serif;
+  cursor: pointer;
+  color: #17241a;
+  font-size: 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000;
+}
+
+/* ---- Stories Section ---- */
+.stories-section {
+  background-color: #f4f4f4;
+  margin: 60px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+}
+
+.stories-section h2 {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+}
+
+/* ---- Testimonial Card ---- */
+.testimonial-card {
+  background: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.stars {
+  color: #ff6e6e;
+  font-size: 1.2rem;
+}
+
+.testimonial-content {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 1rem;
+  color: #17241a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 5em !important;
+}
+
+.testimonial-footer {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.testimonial-footer .user-name {
+  font-family: "Romie", sans-serif;
+  font-size: 12px;
+  color: #17241a;
+}
+
+.testimonial-footer .user-designation {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 10px;
+  color: #bfbfbf;
+}
+
+/* ---- Services Section ---- */
+.services-container {
+  width: 1435px;
+  border-block: 1px solid #17241a;
+}
+
+.services-text {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+}
+
+/* ---- Section Titles ---- */
+.section-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 23px;
+  margin-bottom: 1rem;
+}
+
+/* ---- Support Section ---- */
+.support-section {
+  width: 1435px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.paragraph-description {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 1rem;
+}
+
+/* ---- Form Styles ---- */
+.input-group input {
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.form-control::placeholder {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* ---- Custom Button ---- */
+.btn-custom {
+  font-family: "Sulphur Point", sans-serif;
+  background-color: #6e1719;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+/* ---- Info and Terms Text ---- */
+.info-text {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.terms-conditions-text {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 9.5px;
+  color: #17241a;
+}
+
+.terms-conditions-text a {
+  color: #17241a;
+  text-decoration: none;
+  padding-bottom: 0.5px;
+  border-bottom: 1px solid #17241a;
+}
+
+/* ---- Customer Care Section ---- */
+.customer-care a {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #17241a;
+  text-decoration: none;
+}
+
+/* ---- Contact Section ---- */
+.contact-info {
+  font-size: 0.95rem;
+}
+
+.contact-icons i {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* ---- Footer ---- */
+.footer {
+  background-color: #6e1719;
+  color: #fff;
+  position: relative;
+  padding: 5rem 0 2.5rem !important;
+  background-image: url("/assets/vault-logo-1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.footer h5 {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.footer li {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-media-icons-list {
+  gap: 30px;
+}
+
+.footer-section {
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid #9b9280;
+}
+
+.copyright-text {
+  font-family: "FT Regola Neue Trial", sans-serif;
+  color: #ffffff;
+  opacity: 60%;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+
+/* ---- WhatsApp Icon ---- */
+.whatsapp-icon {
+  margin: auto 0;
+}
+
+.whatsapp-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+/* ---- Navigation Links ---- */
+.nav-link {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 14.5px;
+  letter-spacing: 0.1em;
+  color: #17241a;
+  font-weight: 700;
+}

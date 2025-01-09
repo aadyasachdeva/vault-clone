@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Bracelets",
+    "image": "/assets/category-1.svg"
+  },
+  {
+    "id": 2,
+    "name": "Bags",
+    "image": "/assets/category-2.svg"
+  },
+  {
+    "id": 3,
+    "name": "Shoes",
+    "image": "/assets/category-3.svg"
+  },
+  {
+    "id": 4,
+    "name": "Glasses",
+    "image": "/assets/category-4.svg"
+  }
+]

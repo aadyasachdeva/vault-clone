@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Small Fin Ring",
+    "price": "AED 2,150",
+    "image": "/assets/new-arrivals-women-1.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 2,
+    "name": "Blink Mule",
+    "price": "AED 4,700",
+    "image": "/assets/new-arrivals-women-2.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 3,
+    "name": "East-West Andiamo",
+    "price": "AED 17,900",
+    "image": "/assets/new-arrivals-women-3.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 4,
+    "name": "Wool Boucle Skirt",
+    "price": "AED 8,950",
+    "image": "/assets/new-arrivals-women-4.svg",
+    "wishlistIcon": "/assets/clicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-added-icon.svg",
+    "isAdded": true
+  }
+]

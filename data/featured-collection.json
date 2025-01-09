@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Soft Aviator",
+    "price": "AED 1,655",
+    "image": "/assets/feature-collection-1.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 2,
+    "name": "Kalimero Cha-Cha",
+    "price": "AED 12,350",
+    "image": "/assets/feature-collection-2.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 3,
+    "name": "Dalton Ankle Boot",
+    "price": "AED 6,850",
+    "image": "/assets/feature-collection-3.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 4,
+    "name": "Watch Belt",
+    "price": "AED 1,700",
+    "image": "/assets/feature-collection-4.svg",
+    "wishlistIcon": "/assets/clicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-added-icon.svg",
+    "isAdded": true
+  }
+]

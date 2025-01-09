@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Cashmere Sweater",
+    "price": "AED 4,850",
+    "image": "/assets/new-arrivals-men-1.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 2,
+    "name": "Bleached Denim T-Shirt",
+    "price": "AED 3,850",
+    "image": "/assets/new-arrivals-men-2.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 3,
+    "name": "Ribbed Beanie",
+    "price": "AED 1,400",
+    "image": "/assets/new-arrivals-men-3.svg",
+    "wishlistIcon": "/assets/unclicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-not-added-icon.svg"
+  },
+  {
+    "id": 4,
+    "name": "Squared Derbies",
+    "price": "AED 3,650",
+    "image": "/assets/new-arrivals-men-4.svg",
+    "wishlistIcon": "/assets/clicked-wishlist-icon.svg",
+    "bagIcon": "/assets/bag-added-icon.svg",
+    "isAdded": true
+  }
+]

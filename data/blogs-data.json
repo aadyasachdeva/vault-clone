@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Effortless allure with Abby Champion",
+    "subtext": "From pared-back bodysuits to sleek dresses and leather layers - keep it simple yet striking in pieces that will last well beyond party season, by Alaïa, Gucci, Saint Laurent and more",
+    "image": "/assets/blog-1.svg"
+  },
+  {
+    "id": 2,
+    "title": "The Biggest Fits of 2024",
+    "subtext": "High fashion on a Brooklyn stoop. Cyberpunk steez at the Paris Olympics. Fisherman sandals with a tux on the red carpet. In 2024 our biggest dressers reaffirmed that style inspiration can—and should—strike anywhere.",
+    "image": "/assets/blog-2.svg"
+  },
+  {
+    "id": 3,
+    "title": "The Best Sneakers of 2024",
+    "subtext": "It's been another banner year in the world of sneakers. Here are all the hottest new kicks to have on your radar.",
+    "image": "/assets/blog-3.svg"
+  }
+]
