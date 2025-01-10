@@ -38,7 +38,9 @@ fetch("/data/featured-collection.json")
       productsContainer.innerHTML += productCard;
     });
   })
-  .catch((error) => console.error("Error loading featured collection: ", error));
+  .catch((error) =>
+    console.error("Error loading featured collection: ", error)
+  );
 
 // Fetch and render new arrivals for women
 fetch("/data/new-arrivals-women-collection.json")
